@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Data (keep the folder, ignore contents)
+data/*
+!data/.gitkeep
+
+# Trained models (large binary files)
+models/*.joblib
+models/*.pkl
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
